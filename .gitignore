@@ -1,0 +1,10 @@
+data/*/*.json
+data/*/*.jsonl
+data/*/*.csv
+candidate_encoding/*
+bertmodels/
+output/
+
+.venv/
+__pycache__
+.python-version

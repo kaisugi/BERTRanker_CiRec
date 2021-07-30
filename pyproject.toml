@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "bertranker-cirec"
+version = "0.1.0"
+description = ""
+authors = ["Kaito Sugimoto <kaito_sugimoto@is.s.u-tokyo.ac.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+torch = "1.2.0"
+pysolr = "3.8.1"
+emoji = "0.5.3"
+regex = "2019.8.19"
+matplotlib = "3.1.0"
+tqdm = "4.32.1"
+nltk = "3.4.5"
+numpy = "1.17.2"
+segtok = "1.5.7"
+pytorch-transformers = "1.2.0"
+transformers = "3.1.0"
+colorama = "0.4.3"
+termcolor = "1.1.0"
+pandas = "^1.1.4"
+rank-bm25 = "^0.2.1"
+spacy = "2.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
