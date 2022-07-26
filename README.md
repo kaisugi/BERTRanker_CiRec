@@ -22,7 +22,15 @@ We compare the proposed models in two cases: one where candidate documents are e
 
 ## Training
 
-**You can skip this process by using the trained model from [here](https://drive.google.com/drive/folders/1sjqiadq4WcHOXzevk7p0EhTNVIOIBjW0?usp=sharing).**
+**You can skip this process by using the trained model listed below.**  
+
+**models/ACL_600**: https://huggingface.co/kaisugi/BERTRanker_CiRec_ACL600  
+**models/ACL_600_global**: https://huggingface.co/kaisugi/BERTRanker_CiRec_ACL600_global  
+**models/ACL_200**: https://huggingface.co/kaisugi/BERTRanker_CiRec_ACL200  
+**models/ACL_200_global**: https://huggingface.co/kaisugi/BERTRanker_CiRec_ACL200_global  
+**models/RefSeer**: https://huggingface.co/kaisugi/BERTRanker_CiRec_RefSeer  
+**models/RefSeer_global**: https://huggingface.co/kaisugi/BERTRanker_CiRec_RefSeer_global
+
 
 If you would like to evaluate a global model that considers the title and abstract of the citing paper, add the parameter `--global_info`.
 
